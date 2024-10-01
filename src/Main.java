@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        SingletonOwner owner = SingletonOwner.getInstance();
         RentalManager rentalManager = new RentalManager();
         Scanner scanner = new Scanner(System.in);
 
@@ -43,3 +42,4 @@ public class Main {
         scanner.close();
     }
 }
+
